@@ -1,0 +1,55 @@
+body{
+	background-color: white;
+}
+
+iframe{
+	border: 0 none;
+}
+
+.app-name{
+	position: absolute;
+	top: 30%;
+	left: 30%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-size: 100px;
+}
+
+.chatbot-floating-btn{
+	position: fixed;
+	bottom: 20;
+	right: 20;
+	height: 50;
+	width: 50;
+	
+	background-color: black;
+	border: 1px solid black;
+	border-radius: 100%;
+	font-size: 22;	
+}
+
+.chatbot{
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+	min-width: 25%;
+
+	z-index: 1;
+}
+
+/* Userful properties */
+.btn-no-outline{
+	outline: none;
+}
+
+/* Color classes */
+.color-white{
+	color: white;
+}
+
+.color-black{
+	color: black;
+}

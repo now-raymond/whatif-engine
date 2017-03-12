@@ -1,0 +1,120 @@
+body{
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    	border-left: 1px solid #f7f7f7;
+
+}
+
+button{
+	font-size: 15;
+	border: 0;
+
+	color: #0084ff;
+	background-color: transparent;
+}
+
+.chatbot-container{
+}
+
+/**
+  * Header 
+  */
+.chatbot-header{
+	position: static;
+	padding: 10 10;
+	height: 45;
+	width: 100%;
+
+	border-bottom: 1px solid #f7f7f7;
+}
+
+
+/**
+  * Body 
+  */
+.chatbot-body{
+	position: absolute;
+	top: 50;
+	bottom: 100;
+	width: 100%;
+}
+
+/**
+  * Input panel
+  */
+.chatbot-input-panel{
+	position: absolute;
+	bottom: 0;
+	height: 100;	
+	width: 100%;
+}
+
+.suggest-input-panel{
+	height: 50;
+
+	border-top: 1px solid #f7f7f7;
+}
+
+.text-input-panel{
+	padding: 0 18;
+	height: 50;
+
+	border-top: 1px solid #f7f7f7;
+}
+
+.text-input-area{
+	min-width: 89%;
+	max-width: 95%;
+}
+
+
+/* message class (This is used to add new message ** message class ** onto chatbot body)*/
+
+.message{
+	padding: 8 15;
+	margin: 5 10;
+	max-width: 75%;
+	min-width: 1%;
+
+	border: 1px solid #f7f7f7;
+	border-radius: 25px 5px 25px 25px;
+	font-size: 13px;
+
+    clear: both; /* Force every new message to the next line */
+    word-wrap: break-word;
+}
+
+.message-sent{
+	background-color: #0084ff;
+	color: #fff;
+}
+
+.message-received{
+	
+}
+
+
+
+/**
+  * Userful properties 
+  */
+.outline-none{
+	outline: none;
+}
+
+.vert-align-center{
+	position: relative;
+	top: 50%;
+	transform: perspective(1px) translateY(-50%);
+}
+
+.borderless{
+	border: 0;
+}
+
+.float-right{
+	float: right;
+}
+
+/* Color classes */
+
+

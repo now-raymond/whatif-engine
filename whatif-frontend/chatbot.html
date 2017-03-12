@@ -1,0 +1,34 @@
+<DOCTYPE html>
+<html>
+	<head>
+		<!--Bootstrap + Jquery-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<!--Own Css and Javascript-->
+		<link rel="stylesheet" type="text/css" href="assets/common/stylesheets/chatbot.css">
+		<script type="text/javascript" src="assets/common/js/chatbot.js"></script>
+	</head>
+
+	<body>
+		<div class="chatbot-container">
+			<div class="chatbot-header">
+				<button id="hide-btn" class="glyphicon glyphicon-minus outline-none"></button>
+				<button id="close-btn" class="float-right outline-none">Close</button>
+			</div>
+			
+			<div class="chatbot-body">
+				<div class="conversation-container"></div>
+			</div>
+
+			<div class="chatbot-input-panel">
+				<div class="suggest-input-panel"></div>
+
+				<div class="text-input-panel">
+					<input type="text" id="text-input" class="text-input-area vert-align-center borderless outline-none" 
+					placeholder="Type a message ..." autofocus></input>
+					<button id="send-btn" class="float-right vert-align-center glyphicon glyphicon-send"></button>						
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,26 @@
+.data-container{
+	width: 75%;
+	height: 100%;
+}
+
+.data-graph{
+	height: 70%;
+}
+
+.data-details{
+	height: 30%;
+	background-color: blue;
+}
+
+#myChart{
+	width: 800px;
+	height: auto;
+	padding-top: 10%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+	position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
